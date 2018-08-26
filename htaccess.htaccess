@@ -1,0 +1,52 @@
+RewriteEngine on
+
+
+RewriteRule ^ADM_Ver-Detalle-Pedido-([0-9]+).php$ controllers/verdetallepedido.php?id=$1
+
+
+RewriteRule ^ADM_Pedido-Enviado-([0-9]+).php$ controllers/pedidoenviado.php?id=$1
+
+
+RewriteRule ^ADM_Lista-Pedidos.php$ controllers/admlistapedidos.php
+
+
+RewriteRule ^ADM_Lista-Pedidos-([0-9]+)_([0-9]+)-([0-9]+).php$ controllers/admlistapedidos.php?cod_pedido=$1&cod_menu=$2&cantidad=$3
+
+
+RewriteRule ^ADM_Platos-del_Dia.php$ controllers/platosdeldia.php
+
+
+RewriteRule ^Index-([0-9]+).php$ controllers/index.php?num_mesa=2&id=$1
+
+
+RewriteRule ^Index-([0-9]+)-([0-9]+).php$ controllers/index.php?num_mesa=2&id=$1&cod_menu=$2
+
+
+RewriteRule ^Index.php$ controllers/index.php?num_mesa=2
+
+
+RewriteRule ^US_Ver-Platos.php$ controllers/verplatos.php
+
+
+RewriteRule ^US_Ver-Platos-([0-9]+).php$ controllers/verplatos.php?num_mesa=$1
+
+
+RewriteRule ^US_Ver-Platos-([0-9]+)-([0-9]+).php$ controllers/verplatos.php?num_mesa=$1&id=$2
+
+
+RewriteRule ^US_Ver-Cuenta.php$ controllers/vercuenta.php?num_mesa=2
+
+
+RewriteRule ^US_Ver-Menus-([0-9]+).php$ controllers/vermenus.php?menu=$1
+
+
+RewriteRule ^US_Ver-Menus-([0-9]+)-([0-9]+).php$ controllers/vermenus.php?num_mesa=$1&menu=$2
+
+
+RewriteRule ^US_Mensaje-([0-9]+).php$ controllers/mensaje.php?id=$1
+
+
+RewriteRule ^Principal.php$ controllers/principal.php
+
+
+RewriteRule ^Principal-([0-9]+).php$ controllers/principal.php?id=$1

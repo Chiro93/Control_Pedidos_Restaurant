@@ -1,0 +1,51 @@
+<style>
+	h1 {
+		color: 	#808000;
+		font-family: "Courier";
+		font-size: 40px;
+		font-style: italic;
+	}
+
+	th {
+		font-family: "Times New Roman";
+		font-style: bold;
+	}
+
+	td {
+		font-family: "Times New Roman";
+		font-style: italic;
+		font-size: 18px;
+	}
+
+	p {
+		color: 	#808000;
+		font-family: "Times New Roman";
+		font-style: bold;
+		font-size: 30px;
+	}
+
+	.boton {
+		font-family: "Times New Roman";
+		text-decoration: none;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.botontabla {
+		font-family: "Times New Roman";
+		text-decoration: none;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.botonppal {
+		font-family: "Times New Roman";
+		text-decoration: none;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.reposicion {
+		color: red;
+	}
+</style>

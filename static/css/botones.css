@@ -1,0 +1,31 @@
+<style>
+	.boton {
+		margin: 40px;
+		padding: 5px;
+		background-color: #FFEBCD;
+    	color: #B8860B;
+    	border: 2px solid #DAA520;
+		-webkit-transition-duration: 0.4s; /* Safari */
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+	}
+
+	.boton:hover {
+		background-color: white;
+    	color: 	#B8860B;
+	}
+
+	div .botontabla {
+		border: 1px solid red;
+		background-color: #F5DEB3;
+    	color: red;
+    	font-size: 18px;
+		-webkit-transition-duration: 0.4s; /* Safari */
+    	transition-duration: 0.4s;
+	}
+
+	.botontabla:hover {
+		background-color: white;
+    	color: 	#B8860B;
+	}
+</style>
